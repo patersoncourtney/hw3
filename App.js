@@ -32,7 +32,7 @@ export default class App extends React.Component {
   }
   movieNameInputChanged = (text) => {
     this.setState({
-      movieNameInput: text
+      movieNameInput: null
     });
   }
   movieNameInputSubmitted = () => {
